@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
    
 obj=ss.beam([[1,10],[3,9],[4,8],[7,2],[9,12]],15,7)
 #beam class needs 3 attributes.....1) an array of [point load position from left end,value of point load] 2) length of the beam  3)value of uniformly distributed load
+# for example a 10 kip load is at 1 m distance from left end, 9 kip load is at 3 m distance from the left end...so on
+
 
 # printing force reactions RA,RB
 print(obj.Reactions())
